@@ -1,4 +1,4 @@
-(module PJ398SM (layer F.Cu) (tedit 5BE15C5F)
+(module PJ398SM (layer F.Cu) (tedit 5DB5C5A8)
   (fp_text reference REF** (at 0 -6.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,7 +14,7 @@
   (fp_circle (center 0 0) (end 3 0.2) (layer F.SilkS) (width 0.15))
   (fp_circle (center 0 0) (end 1.8 0) (layer F.SilkS) (width 0.15))
   (pad TN thru_hole oval (at 0 3.38) (size 2.6 1.6) (drill oval 1.6 0.6) (layers *.Cu *.Mask))
-  (pad S thru_hole oval (at 0 6.48) (size 2.4 1.6) (drill oval 1.4 0.6) (layers *.Cu *.Mask))
+  (pad S thru_hole oval (at 0 6.35) (size 2.4 1.9) (drill oval 1.4 0.9) (layers *.Cu *.Mask))
   (pad T thru_hole oval (at 0 -4.92) (size 2.6 1.5) (drill oval 1.6 0.5) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/Local.pretty/PJ398SM.step
     (offset (xyz 0 0 9))
