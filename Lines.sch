@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:AudioJack2_SwitchT J1
-U 1 1 5DB57A07
-P 2150 1350
-F 0 "J1" H 1971 1283 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 1971 1374 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2150 1350 50  0001 C CNN
-F 3 "~" H 2150 1350 50  0001 C CNN
-	1    2150 1350
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5DB58723
@@ -477,4 +466,177 @@ Wire Wire Line
 Wire Wire Line
 	9100 5650 9100 5750
 NoConn ~ 9200 5450
+$Sheet
+S 4400 1650 800  850 
+U 5DBDFDCD
+F0 "Buffer" 50
+F1 "Buffer.sch" 50
+F2 "INA" I L 4400 1850 50 
+F3 "OUTA" I R 5200 1850 50 
+F4 "OUTB" I R 5200 2000 50 
+F5 "INC" I L 4400 2150 50 
+F6 "OUTC" I R 5200 2150 50 
+F7 "IND" I L 4400 2300 50 
+F8 "OUTD" I R 5200 2300 50 
+F9 "INB" I L 4400 2000 50 
+$EndSheet
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 5DB57A07
+P 2150 1350
+F 0 "J1" H 1971 1283 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 1971 1374 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2150 1350 50  0001 C CNN
+F 3 "~" H 2150 1350 50  0001 C CNN
+	1    2150 1350
+	1    0    0    1   
+$EndComp
+Text GLabel 8900 1350 0    50   Input ~ 0
+OUT1
+Text GLabel 8900 1950 0    50   Input ~ 0
+OUT2
+Text GLabel 8900 2550 0    50   Input ~ 0
+OUT3
+Text GLabel 8900 3150 0    50   Input ~ 0
+OUT4
+Text GLabel 8900 3750 0    50   Input ~ 0
+OUT5
+Text GLabel 8900 4350 0    50   Input ~ 0
+OUT6
+Text GLabel 8900 4950 0    50   Input ~ 0
+OUT7
+Text GLabel 8900 5550 0    50   Input ~ 0
+OUT8
+Wire Wire Line
+	8900 5550 9200 5550
+Wire Wire Line
+	9200 4950 8900 4950
+Wire Wire Line
+	8900 4350 9200 4350
+Wire Wire Line
+	9200 3750 8900 3750
+Wire Wire Line
+	8900 3150 9200 3150
+Wire Wire Line
+	9200 2550 8900 2550
+Wire Wire Line
+	8900 1950 9200 1950
+Wire Wire Line
+	9200 1350 8900 1350
+Text GLabel 2700 1350 2    50   Input ~ 0
+IN1
+Text GLabel 2700 1950 2    50   Input ~ 0
+IN2
+Text GLabel 2700 2550 2    50   Input ~ 0
+IN3
+Text GLabel 2700 3150 2    50   Input ~ 0
+IN4
+Text GLabel 2700 3750 2    50   Input ~ 0
+IN5
+Text GLabel 2700 4350 2    50   Input ~ 0
+IN6
+Text GLabel 2700 4950 2    50   Input ~ 0
+IN7
+Text GLabel 2700 5550 2    50   Input ~ 0
+IN8
+Wire Wire Line
+	2700 5550 2350 5550
+Wire Wire Line
+	2350 4950 2700 4950
+Wire Wire Line
+	2700 4350 2350 4350
+Wire Wire Line
+	2350 3750 2700 3750
+Wire Wire Line
+	2700 3150 2350 3150
+Wire Wire Line
+	2350 2550 2700 2550
+Wire Wire Line
+	2700 1950 2350 1950
+Wire Wire Line
+	2350 1350 2700 1350
+$Sheet
+S 4400 3050 800  850 
+U 5DC46587
+F0 "sheet5DC46587" 50
+F1 "Buffer.sch" 50
+F2 "INA" I L 4400 3250 50 
+F3 "OUTA" I R 5200 3250 50 
+F4 "OUTB" I R 5200 3400 50 
+F5 "INC" I L 4400 3550 50 
+F6 "OUTC" I R 5200 3550 50 
+F7 "IND" I L 4400 3700 50 
+F8 "OUTD" I R 5200 3700 50 
+F9 "INB" I L 4400 3400 50 
+$EndSheet
+Text GLabel 4250 1850 0    50   Input ~ 0
+IN1
+Text GLabel 4250 2000 0    50   Input ~ 0
+IN2
+Text GLabel 4250 2150 0    50   Input ~ 0
+IN3
+Text GLabel 4250 2300 0    50   Input ~ 0
+IN4
+Text GLabel 4250 3250 0    50   Input ~ 0
+IN5
+Text GLabel 4250 3400 0    50   Input ~ 0
+IN6
+Text GLabel 4250 3550 0    50   Input ~ 0
+IN7
+Text GLabel 4250 3700 0    50   Input ~ 0
+IN8
+Text GLabel 5350 1850 2    50   Input ~ 0
+OUT1
+Text GLabel 5350 2000 2    50   Input ~ 0
+OUT2
+Text GLabel 5350 2150 2    50   Input ~ 0
+OUT3
+Text GLabel 5350 2300 2    50   Input ~ 0
+OUT4
+Text GLabel 5350 3250 2    50   Input ~ 0
+OUT5
+Text GLabel 5350 3400 2    50   Input ~ 0
+OUT6
+Text GLabel 5350 3550 2    50   Input ~ 0
+OUT7
+Text GLabel 5350 3700 2    50   Input ~ 0
+OUT8
+Wire Wire Line
+	4250 1850 4400 1850
+Wire Wire Line
+	4400 2000 4250 2000
+Wire Wire Line
+	4250 2150 4400 2150
+Wire Wire Line
+	4400 2300 4250 2300
+Wire Wire Line
+	4250 3250 4400 3250
+Wire Wire Line
+	4400 3400 4250 3400
+Wire Wire Line
+	4250 3550 4400 3550
+Wire Wire Line
+	4400 3700 4250 3700
+Wire Wire Line
+	5200 3700 5350 3700
+Wire Wire Line
+	5350 3550 5200 3550
+Wire Wire Line
+	5200 3400 5350 3400
+Wire Wire Line
+	5350 3250 5200 3250
+Wire Wire Line
+	5200 2300 5350 2300
+Wire Wire Line
+	5350 2150 5200 2150
+Wire Wire Line
+	5200 2000 5350 2000
+Wire Wire Line
+	5350 1850 5200 1850
+$Sheet
+S 2300 6900 700  300 
+U 5DC882B6
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
 $EndSCHEMATC
